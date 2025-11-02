@@ -24,6 +24,10 @@
 .active {
   background-color: #04AA6D; /* Add an active/current color */
 }
+body {
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
 	</style>
 
 
@@ -47,7 +51,10 @@
 /* Add some content at the bottom of the video/page */
 .content {
   position: fixed;
-  bottom: 10;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
   background: rgba(0, 0, 0, 0.5);
   color: #f1f1f1;
   width: 100%;
