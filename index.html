@@ -1,6 +1,39 @@
 <!DOCTYPE HTML>
 <html>
 <head>
+	<style>
+		.icon-bar {
+  width: 90px; /* Set a specific width */
+  background-color: #555; /* Dark-grey background */
+}
+
+.icon-bar a {
+  display: block; /* Make the links appear below each other instead of side-by-side */
+  text-align: center; /* Center-align text */
+  padding: 16px; /* Add some padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: white; /* White text color */
+  font-size: 36px; /* Increased font-size */
+}
+
+.icon-bar a:hover {
+  background-color: #000; /* Add a hover color */
+}
+
+.active {
+  background-color: #04AA6D; /* Add an active/current color */
+}
+	</style>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="icon-bar">
+  <a class="active" href="#"><i class="fa fa-home"></i></a>
+  <a href="#"><i class="fa fa-search"></i></a>
+  <a href="#"><i class="fa fa-envelope"></i></a>
+  <a href="#"><i class="fa fa-globe"></i></a>
+  <a href="#"><i class="fa fa-trash"></i></a>
+</div>
 <!-- The video -->
 <video autoplay muted loop id="myVideo">
   <source src="https://rr6---sn-jvhj5nu-qufl.googlevideo.com/videoplayback?expire=1762138729&ei=CcYHabTpAraXsfIP7aTR0Qs&ip=89.249.195.91&id=o-AHqaUgcsjVPb5yjAOXtxGEW5Hm7n_KWX1npPTSypGWSL&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&rms=au%2Cau&bui=AdEuB5QT-tbaP1GoXVPjLDklQYdJUC28wAVEAin_uOFVYThfhFluBUE4z_Fab7BLDb9NHkv-xHheGCkj&spc=6b0G_Cu3O0mKaX3vWl-LsKdgT1lzQRfnZZjdewe4ekaDyA0CFOLd4-H7K11NcMSir7A&vprv=1&svpuc=1&mime=video%2Fmp4&rqh=1&cnr=14&ratebypass=yes&dur=36010.039&lmt=1701187454269445&fexp=51552689,51565116,51565682,51580968&c=ANDROID&txp=5538434&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Ccnr%2Cratebypass%2Cdur%2Clmt&sig=AJfQdSswRAIgXXKE3n-tsjDDXY09Nz-MzzHQSQkOg-dhhVc4YoDjbYsCICCI9k6bfU_-bKX4EjdFIsypS2LoANggBT_VFz6puU2X&redirect_counter=1&rm=sn-a5mrr7z&rrc=104&req_id=52a6fb649adaa3ee&cms_redirect=yes&cmsv=e&ipbypass=yes&met=1762117139,&mh=Ax&mip=2601:40c:280:3a70:d22:230c:6315:12a2&mm=31&mn=sn-jvhj5nu-qufl&ms=au&mt=1762116868&mv=m&mvi=6&pl=53&lsparams=ipbypass,met,mh,mip,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRAIgfPln4ysrUM0B__Q8KKoHbLfVZ7jp5LqXumItEVfhyLkCIH4b-aamViUStAy6fyPZUYwUqq7AmdUzZlNOty6c70_x" type="video/mp4">
