@@ -32,6 +32,18 @@ body {
   /* Replace 🦄 with your chosen emoji */
   cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🙋‍♂️</text></svg>") 16 0, auto;
 }
+.search-container {
+  display: flex;
+  justify-content: center; /* Centers the content horizontally */
+  padding: 20px;
+}
+
+/* Optional: Limit the width so it doesn't span the whole screen */
+.gcse-searchbox-only {
+  width: 100%;
+  max-width: 600px; 
+}
+
 
 
 	</style>
@@ -91,4 +103,9 @@ body {
 <i class="material-icons">sports_esports</i>
 </button>
 	</div>
+	<div class="search-container">
+  <script async src="cse.google.com/cse.js?cx=1163df944831d49da"></script>
+  <div class="gcse-searchbox-only"></div>
+</div>
+
 </html>
